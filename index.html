@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]>
+<html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>
+<html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>
+<html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html lang="en"> <!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <title>Viewer</title>
+
+    <!-- Mobile Specific -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="assets/css/previewer/style.css">
+
+    <!-- JavaScript -->
+    <script type="text/javascript" src="assets/js/jquery-1.12.3/jquery.js"></script>
+
+    <script type="text/javascript" src="assets/js/custom/config.js"></script>
+    <script type="text/javascript" src="assets/js/custom/custom.js"></script>
+
+</head>
+
+<body>
+
+<div id="switcher">
+    <div class="center">
+        <div class="logo">
+            <a href="#" title="Template Previewer"><img src="assets/img/previewer/logo.png" alt="HTML5 Template Previewer"/></a>
+        </div>
+
+        <ul>
+            <li id="theme_list"><a id="theme_select" href="#">Select a theme...</a>
+                <ul>
+                    <li class="button_a">
+                        <a href="#" rel="http://thevectorlab.net/slicklab/,
+                        http://themeforest.net/item/slicklab-responsive-admin-dashboard-template/10805428?ref=vectorlab,
+                        Slick Lab">
+                            Slick Lab
+                            <span style="background:#ec6334">Admin</span>
+                        </a>
+                        <img alt="" class="preview" src="assets/img/screen/01_slicklab_preview.jpg">
+                    </li>
+                    <li class="button_a">
+                        <a href="#" rel="http://thevectorlab.net/flatlab/,
+                        http://themeforest.net/item/flatlab-bootstrap-3-responsive-admin-template/5902687?ref=vectorlab,
+                        Flat Lab">
+                            Flat Lab
+                            <span style="background:#ec6334">Admin</span>
+                        </a>
+                        <img alt="" class="preview" src="assets/img/screen/01_Flatlab_Preview.jpg">
+                    </li>
+                    <li class="button_a">
+                        <a href="#" rel="http://thevectorlab.net/flatlab-frontend/,
+                        http://themeforest.net/item/flatlab-bootstrap-3-responsive-admin-template/5902687?ref=vectorlab,
+                        Flat lab Frontend">
+                            Flat lab Frontend
+                            <span style="background:#288aad">Html</span>
+                        </a>
+                        <img alt="" class="preview" src="assets/img/screen/01_Flatlab_frontend_Preview.jpg">
+                    </li>
+                    <li class="button_a">
+                        <a href="#" rel="http://thevectorlab.net/metrolab/,
+                        http://themeforest.net/item/metro-lab-responsive-metro-dashboard-template/5359122?ref=vectorlab,
+                        Metro Lab">
+                            Metro Lab
+                            <span style="background:#ec6334">Admin</span>
+                        </a>
+                        <img alt="" class="preview" src="assets/img/screen/01_Metrolab_Preview.jpg">
+                    </li>
+                    <li class="button_a">
+                        <a href="#" rel="http://thevectorlab.net/adminlab/,
+                        http://themeforest.net/item/admin-lab-responsive-admin-dashboard-template/4701827?ref=vectorlab,
+                        Admin Lab">
+                            Admin Lab
+                            <span style="background:#ec6334">Admin</span>
+                        </a>
+                        <img alt="" class="preview" src="assets/img/screen/01_Admin_Lab_preview.jpg">
+                    </li>
+                    <li class="button_a">
+                        <a href="#" rel="http://thevectorlab.net/adminlab-rtl,
+                        http://themeforest.net/item/admin-lab-responsive-admin-dashboard-template/4701827?ref=vectorlab,
+                        Admin Lab RTL">
+                            Admin Lab RTL
+                            <span style="background:#ec6334">Admin RTL</span>
+                        </a>
+                        <img alt="" class="preview" src="assets/img/screen/01_Admin_Lab_preview.jpg">
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        <div class="responsive">
+            <a href="#" class="desktop active" title="View Desktop Version"></a>
+            <a href="#" class="tabletlandscape" title="View Tablet Landscape (1024x768)"></a>
+            <a href="#" class="tabletportrait" title="View Tablet Portrait (768x1024)"></a>
+            <a href="#" class="mobilelandscape" title="View Mobile Landscape (480x320)"></a>
+            <a href="#" class="mobileportrait" title="View Mobile Portrait (320x480)"></a>
+        </div>
+        <div class="resize-zoom">
+            <select class="resize_select">
+                <option value="0.5">50%</option>
+                <option value="0.75">75%</option>
+                <option value="1" selected>100%</option>
+                <option value="1.25">125%</option>
+                <option value="1.5">150%</option>
+            </select>
+        </div>
+        <ul class="links">
+            <li class="purchase" rel="">
+                <a href=""><img src="assets/img/previewer/purchase.png" alt="Admin Themes"/> Purchase</a>
+            </li>
+            <li class="close" rel="">
+                <a href=""><img src="assets/img/previewer/cross.png" alt="Admin Themes"/> Close</a>
+            </li>
+        </ul>
+    </div>
+</div>
+<div id="iframe-wrap" class="desktop">
+    <iframe id="iframe" src="" frameborder="0" width="100%"></iframe>
+</div>
+</body>
+</html>
